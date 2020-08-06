@@ -1,9 +1,12 @@
-# Fabric Example Mod
+# Squish
 
-## Setup
+A simple mod that squishes entities when crushed by an anvil. Requires [Size Entity Attributes](https://www.curseforge.com/minecraft/mc-mods/size-entity-attributes).
 
-For setup instructions please see the [fabric wiki page](https://fabricmc.net/wiki/tutorial:setup) that relates to the IDE that you are using.
+This mod is (mostly) a clone of the Forge mod [Squash](https://www.curseforge.com/minecraft/mc-mods/squash).
 
-## License
+## Build
 
-This template is available under the CC0 license. Feel free to learn from it and incorporate it in your own projects.
+Building is simple provided you have a working JDK:
+```
+./gradlew build
+```
